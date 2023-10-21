@@ -1,7 +1,7 @@
 /**
  * @jest-environment jsdom
  */
-const buttonClick = require("./button");
+const buttonClick = require("../button");
 
 beforeEach(() => {
    let fs = require("fs");
